@@ -141,7 +141,7 @@ a:hover {
 }
 
 .sinopsis{
-    background-color: rgba(128, 128, 128, 0.89);
+    background-color: rgba(128, 128, 128, 0.925);
     width: 80%;
     margin: 30px;
     border: 2px solid black;
@@ -162,9 +162,9 @@ a:hover {
 
 .sinp{
     margin: 30px 40px;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: 0.8px #000000;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.849);
+    -webkit-text-stroke: 0px #000000;
 }
 
 .sinimg{
