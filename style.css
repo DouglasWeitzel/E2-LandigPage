@@ -1,8 +1,13 @@
+/* Colors: Orange: rgb(230, 125, 6) ,Blueviolet: rgba(115, 17, 207, 0.871) , Gray: rgba(128, 128, 128, 0.805) , orangered, black, white */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: "poppins";
 }
 
 body {
@@ -39,7 +44,21 @@ main{
     flex-direction: column;
 }
 
-/* Class - subclass */
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer div{
+    margin: 30px 0 30px 0;
+}
+
+/* Class - pseudoclass ----------------------------------------------------------------------------------- */
 .navbar img {
     width: 250px;
     height: 100px;
@@ -55,13 +74,12 @@ main{
     width: 56%;
     margin: 0 100px 0 0;
     border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.811);
+    border: 2px solid rgba(255, 255, 255, 0.905);
 }
 
 .link a{
     font-size: 24px;
     color: white;
-    font-weight: 600; 
 }
 
 a:link {
@@ -74,7 +92,7 @@ a:hover {
 }
 
 .hero {
-    background-color: rgba(255, 255, 255, 0.312);
+    background-color: rgba(128, 128, 128, 0.805);
     width: 80%;
     height: 420px;
     margin: 50px;
@@ -108,8 +126,9 @@ a:hover {
 }
 
 .btn1 a{
+    font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .btn1:hover{
@@ -121,10 +140,10 @@ a:hover {
     color: black;
 }
 
-.sinapsis{
-    background-color: rgba(255, 255, 255, 0.345);
+.sinopsis{
+    background-color: rgba(128, 128, 128, 0.89);
     width: 80%;
-    height: 300px;
+    margin: 30px;
     border: 2px solid black;
     border-radius: 15px;
     display: flex;
@@ -135,26 +154,53 @@ a:hover {
 }
 
 .sinh2 {
-    margin: 0 0 50px 0;
+    font-size: 40px;
+    margin: 50px 0 10px 0;
+    color: orangered;
+    -webkit-text-stroke: 1.5px #000000;
 }
 
 .sinp{
     margin: 30px 40px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.8px #000000;
 }
 
+.sinimg{
+    width: 100%;
+    margin: 10px 150px 40px 0;
+    display: flex;
+    align-content: center;
+    justify-content: right;
+}
+
+.sinimg img{
+    width: 100px;
+}
+
+.navfooter{
+    background-color: rgba(128, 128, 128, 0.805);
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+}
 /* ID -----------------------------------------------------------------------------------*/
 
 #bienvenido {
     color: orangered;
-    font-size: 40px;
+    font-family: "Times New Roman";
+    font-size: 45px;
     margin: 10px 0;
     -webkit-text-stroke: 1.5px #000000;
 }
 
 #nge {
     color: orangered;
-    
+    font-family: "Times New Roman";
     font-size: 60px;
     margin: 20px 0 30px 0;
-    -webkit-text-stroke: 2px #000000;
+    -webkit-text-stroke: 1.5px #000000;
 }
