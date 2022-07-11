@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Landing Page Portfolio</title>
 </head>
@@ -12,12 +13,13 @@
         <nav class="navbar">
             <a href="#"><img src="./img/evangelion.png" alt="Logo.vsg"></a>
             <ul class="link">
-                <li><a href="inicio">Inicio</a></li>
-                <li><a href="sobre mi">Capítulos</a></li>
-                <li><a href="servicio">Ovas</a></li>
-                <li><a href="manga">Manga</a></li>
-                <li><a href="Personajes">Personajes</a></li>
-                <li><a href="contacto">Contacto</a></li>
+                <li><a href="#cartlist"><i class="fa-solid fa-bars"></i></a></li>
+                <li class="item"><a href="inicio">Inicio</a></li>
+                <li class="item"><a href="sobre mi">Capítulos</a></li>
+                <li class="item"><a href="servicio">Ovas</a></li>
+                <li class="item"><a href="manga">Manga</a></li>
+                <li class="item"><a href="Personajes">Personajes</a></li>
+                <li class="item"><a href="contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +30,7 @@
             </div>
             <div class="descripcion"> 
                 <h1 id="bienvenido">Bienvenido a tu pagina de</h1>
-                <h1 id="nge"> ¡Neon Genesis Evangelion!</h1>
+                <h2 id="nge"> ¡Neon Genesis Evangelion!</h2>
                 <div class="descbtn">
                     <button class="btn1"><a href="#">Seguir leyendo</a></button>
                     <button class="btn1"><a href="Personajes">Personajes</a></button>
@@ -77,10 +79,12 @@
             </div>
         </section>
     </main>
+
 </body>
 <footer>
     <div class="fdiv">
         <p>Copyright © 1997-2022 Douglas Weitzel </p>
     </div>
+    
 </footer>
 </html>
