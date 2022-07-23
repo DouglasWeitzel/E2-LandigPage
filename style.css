@@ -55,6 +55,7 @@ footer div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 
 .navbar img {
@@ -66,13 +67,15 @@ footer div{
 .link {
     background-color: rgba(115, 17, 207, 0.871);
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
     height: 40px;
     width: 56%;
-    margin: 0 100px 0 0;
+    margin: 0 46px 0 0;
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, 0.905);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .link a{
@@ -279,9 +282,6 @@ a:hover {
         justify-content: center;
     }
 
-    .sinh2{
-    }
-
     .sinimg{
         width: 100%;
         margin: 0 0 20px 0;
@@ -393,11 +393,6 @@ a:hover {
     .hero img{
         width: 300px;
     }
-
-    .descripcion{
-        
-    }
-
 
     #bienvenido{
         font-size: 30px;
