@@ -24,6 +24,8 @@ body {
 header {
     width: 100%;
     height: 15%;
+    position: sticky;
+    top: 0;
 }
 
 main{
@@ -83,13 +85,14 @@ footer div{
     color: white;
 }
 
-a:link {
+.link a:link {
     text-decoration: none;
-    text-shadow: 0 0 7px rgb(0, 0, 0);
 }
 
 a:hover {
     color: rgb(230, 125, 6);
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .hero {
@@ -133,8 +136,9 @@ a:hover {
 }
 
 .btn1:hover{
-    transition: 0.5s;
+    transition: 0.5s ease;
     background-color: orangered;
+    transform: scale(1.1);
 }
 
 .btn1 a:hover{
@@ -178,6 +182,10 @@ a:hover {
 
 .sinimg img{
     width: 100px;
+}
+
+.capitulos{
+    background-color: rgba(128, 128, 128, 0.805);
 }
 
 .navfooter{
@@ -289,6 +297,68 @@ a:hover {
         align-content: center;
         justify-content: center;
     }
+
+    /* seccion: capitulos */
+
+    .capitulos h2{
+        font-size: 40px;
+        margin: 50px 0 10px 0;
+        color: orangered;
+        -webkit-text-stroke: 1.5px #000000;
+    }
+
+    .capitulos{
+        background-color: rgba(128, 128, 128, 0.805);
+        width: 90%;
+        margin: 0 0 1rem 0;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .capitulos img{
+        width: 10rem;
+    }
+
+    .capitulos h3{
+        text-decoration: none;
+    }
+
+    .capitulos p{
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: white;
+        -webkit-text-stroke: 0.6px #000000;
+        text-shadow: none;
+    }
+
+    .card__container{
+        background-color: rgba(128, 128, 128, 0.925);
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .capitulos__btn{
+        background-color: blueviolet;
+        padding: 0.5rem 2rem;
+        margin: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .capitulos__btn a{
+        color: white;
+    }
+
+    .capitulos__btn:hover{
+        transition: 0.5s;
+        background-color: orangered;
+        transform: scale(1.1);
+}
+
 }
 
 /* Tablets & larger smartphones */
@@ -354,8 +424,74 @@ a:hover {
     #nge{
         font-size: 3rem;
         margin: 0;
+        
     }
 
+    /* seccion: capitulos */
+
+    .capitulos h2{
+        font-size: 40px;
+        margin: 30px 0 10px 0;
+        color: orangered;
+        -webkit-text-stroke: 1.5px #000000;
+    }
+
+    .capitulos{
+        background-color: rgba(128, 128, 128, 0.805);
+        width: 80%;
+        margin: 0 0 1rem 0;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .capitulos img{
+        width: 10rem;
+    }
+
+    .capitulos h3{
+        font-size: 2rem;
+        text-shadow: none;
+    }
+
+    .capitulos h3{
+        text-decoration: none;
+    }
+
+    .capitulos p{
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: white;
+        -webkit-text-stroke: 0.6px #000000;
+        text-shadow: none;
+    }
+
+    .card__container{
+        background-color: rgba(128, 128, 128, 0.925);
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .capitulos__btn{
+        background-color: blueviolet;
+        padding: 0.5rem 2rem;
+        margin: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .capitulos__btn a{
+        color: white;
+    }
+
+    .capitulos__btn:hover{
+        transition: 0.5s;
+        background-color: orangered;
+        transform: scale(1.1);
+    }
 }
 
 /* Laptops, Larger tablet and small Desktops - Tablet */
@@ -419,6 +555,79 @@ a:hover {
         justify-content: center;
         margin: 0 0 20px 0;
     }
+
+        /* seccion: capitulos */
+
+        .capitulos__h2{
+            width: 100%;
+        }
+
+        .capitulos h2{
+            font-size: 40px;
+            margin: 30px 0 10px 0;
+            color: orangered;
+            -webkit-text-stroke: 1.5px #000000;
+        }
+    
+        .capitulos{
+            background-color: rgba(128, 128, 128, 0.805);
+            width: 80%;
+            margin: 1rem 0 1rem 0;
+            border-radius: 0.5rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+    
+        .capitulos img{
+            width: 10rem;
+        }
+    
+        .capitulos h3{
+            font-size: 2rem;
+            text-shadow: none;
+        }
+    
+        .capitulos h3{
+            text-decoration: none;
+        }
+    
+        .capitulos p{
+            padding: 1rem;
+            font-size: 1.2rem;
+            color: white;
+            -webkit-text-stroke: 0.6px #000000;
+            text-shadow: none;
+        }
+    
+        .card__container{
+            background-color: rgba(128, 128, 128, 0.925);
+            border: 1px solid white;
+            border-radius: 10px;
+            margin: 10px;
+            width: 17.9rem;
+        }
+    
+        .capitulos__btn{
+            background-color: blueviolet;
+            padding: 0.5rem 2rem;
+            margin: 1rem;
+            border-radius: 0.5rem;
+        }
+    
+        .capitulos__btn a{
+            color: white;
+        }
+    
+        .capitulos__btn:hover{
+            transition: 0.5s;
+            background-color: orangered;
+            transform: scale(1.1);
+        }
+
 }
 
 /* Larger desktops and monitors */
@@ -427,4 +636,87 @@ a:hover {
     .link i{
         display: none;
     }
+
+    .link a:hover{
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+
+            /* seccion: capitulos */
+
+            .capitulos__h2{
+                width: 100%;
+            }
+    
+            .capitulos h2{
+                font-size: 40px;
+                margin: 30px 0 10px 0;
+                color: orangered;
+                -webkit-text-stroke: 1.5px #000000;
+            }
+        
+            .capitulos{
+                background-color: rgba(128, 128, 128, 0.805);
+                width: 80%;
+                margin: 1rem 0 1rem 0;
+                border-radius: 0.5rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+        
+            .capitulos img{
+                width: 10rem;
+            }
+        
+            .capitulos h3{
+                font-size: 2rem;
+                text-shadow: none;
+            }
+        
+            .capitulos h3{
+                text-decoration: none;
+            }
+        
+            .capitulos p{
+                padding: 1rem;
+                font-size: 1.2rem;
+                color: white;
+                -webkit-text-stroke: 0.6px #000000;
+                text-shadow: none;
+            }
+        
+            .card__container{
+                background-color: rgba(128, 128, 128, 0.925);
+                border: 1px solid white;
+                border-radius: 10px;
+                margin: 10px;
+                width: 17.9rem;
+                position: relative;
+            }
+
+            .card__btn{
+                width: 100%;
+            }
+        
+            .capitulos__btn{
+                background-color: blueviolet;
+                padding: 0.5rem 2rem;
+                margin: 1rem;
+                border-radius: 0.5rem;
+            }
+        
+            .capitulos__btn a{
+                color: white;
+            }
+        
+            .capitulos__btn:hover{
+                transition: 0.5s;
+                background-color: orangered;
+                transform: scale(1.1);
+            }
+
 }
